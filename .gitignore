@@ -1,0 +1,55 @@
+# Arquivos gerados pelo Visual Studio e .NET
+
+# Binários de compilação
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+
+# Pacotes
+**/packages
+**/node_modules
+**/bower_components
+
+# Arquivos de usuário
+*.user
+*.suo
+*.sln.docstates
+*.vshost.*
+*.vspscc
+*.vssscc
+*.bak
+*.resharper
+
+# Arquivos de projeto e solução
+*.sln
+
+# Arquivos do .NET Core/5/6/7/8
+# Diretórios de saída
+[Bb]in/
+[Oo]bj/
+
+# Arquivos de cache e temporários
+.vs/
+.idea/
+.vscode/
+
+.bin/
+.obj/
+
+# Logs e dados
+*.log
+*.tmp
+*.pdb
+*.mdb
+
+# Arquivos de teste
+TestResults/
+
+# Configurações de ferramentas
+*.DotSettings
+.nupkg
+
+# Windows Forms Designer
+# Arquivos de recursos do designer (podem ser grandes e são gerados)
+*.resx
