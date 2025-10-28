@@ -118,7 +118,100 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="alho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arvore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arvore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="azeitona" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\azeitona.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="batata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\batata.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="berinjela" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\berinjela.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cenoura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cenoura.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="durian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\durian.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="espinafre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\espinafre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flor-roxa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flor-roxa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="girassol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\girassol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kiwi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kiwi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="manga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\manga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mato.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="melancia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\melancia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="milho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\milho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mirtilo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mirtilo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pepino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pepino.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pera.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pessego" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pessego.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pimenta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pimenta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pimentao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pimentao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pomarola" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pomarola.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quiabo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quiabo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rabanete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rabanete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trevo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trevo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="uva" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\usa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\uva.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -12,3 +12,6 @@ C:\Users\arthu\OneDrive\Documentos\MemoryGame\MemoryGame\obj\Debug\net6.0-window
 C:\Users\arthu\OneDrive\Documentos\MemoryGame\MemoryGame\obj\Debug\net6.0-windows\MemoryGame.pdb
 C:\Users\arthu\OneDrive\Documentos\MemoryGame\MemoryGame\obj\Debug\net6.0-windows\MemoryGame.genruntimeconfig.cache
 C:\Users\arthu\OneDrive\Documentos\MemoryGame\MemoryGame\obj\Debug\net6.0-windows\ref\MemoryGame.dll
+C:\Users\arthu\OneDrive\Documentos\MemoryGame\MemoryGame\obj\Debug\net6.0-windows\MemoryGame.Properties.Resources.resources
+C:\Users\arthu\OneDrive\Documentos\MemoryGame\MemoryGame\obj\Debug\net6.0-windows\MemoryGame.csproj.GenerateResource.cache
+C:\Users\arthu\OneDrive\Documentos\MemoryGame\MemoryGame\obj\Debug\net6.0-windows\MemoryGame.sourcelink.json

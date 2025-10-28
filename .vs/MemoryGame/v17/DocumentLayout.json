@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\arthu\\OneDrive\\Documentos\\MemoryGame\\MemoryGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{602033EB-90FA-B825-78E2-910851DF67C6}|MemoryGame.csproj|c:\\users\\arthu\\onedrive\\documentos\\memorygame\\memorygame\\formnivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{602033EB-90FA-B825-78E2-910851DF67C6}|MemoryGame.csproj|solutionrelative:formnivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{602033EB-90FA-B825-78E2-910851DF67C6}|MemoryGame.csproj|c:\\users\\arthu\\onedrive\\documentos\\memorygame\\memorygame\\formjogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602033EB-90FA-B825-78E2-910851DF67C6}|MemoryGame.csproj|solutionrelative:formjogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{602033EB-90FA-B825-78E2-910851DF67C6}|MemoryGame.csproj|c:\\users\\arthu\\onedrive\\documentos\\memorygame\\memorygame\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{602033EB-90FA-B825-78E2-910851DF67C6}|MemoryGame.csproj|solutionrelative:properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{602033EB-90FA-B825-78E2-910851DF67C6}|MemoryGame.csproj|c:\\users\\arthu\\onedrive\\documentos\\memorygame\\memorygame\\formnivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602033EB-90FA-B825-78E2-910851DF67C6}|MemoryGame.csproj|solutionrelative:formnivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{602033EB-90FA-B825-78E2-910851DF67C6}|MemoryGame.csproj|c:\\users\\arthu\\onedrive\\documentos\\memorygame\\memorygame\\memorygame.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{602033EB-90FA-B825-78E2-910851DF67C6}|MemoryGame.csproj|solutionrelative:memorygame.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{602033EB-90FA-B825-78E2-910851DF67C6}|MemoryGame.csproj|c:\\users\\arthu\\onedrive\\documentos\\memorygame\\memorygame\\formjogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{602033EB-90FA-B825-78E2-910851DF67C6}|MemoryGame.csproj|solutionrelative:formjogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{602033EB-90FA-B825-78E2-910851DF67C6}|MemoryGame.csproj|c:\\users\\arthu\\onedrive\\documentos\\memorygame\\memorygame\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{602033EB-90FA-B825-78E2-910851DF67C6}|MemoryGame.csproj|solutionrelative:properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{602033EB-90FA-B825-78E2-910851DF67C6}|MemoryGame.csproj|c:\\users\\arthu\\onedrive\\documentos\\memorygame\\memorygame\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
@@ -33,11 +33,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Resources.resx",
               "DocumentMoniker": "C:\\Users\\arthu\\OneDrive\\Documentos\\MemoryGame\\MemoryGame\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "Properties\\Resources.resx",
@@ -61,13 +61,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FormNivel.cs",
               "DocumentMoniker": "C:\\Users\\arthu\\OneDrive\\Documentos\\MemoryGame\\MemoryGame\\FormNivel.cs",
               "RelativeDocumentMoniker": "FormNivel.cs",
               "ToolTip": "C:\\Users\\arthu\\OneDrive\\Documentos\\MemoryGame\\MemoryGame\\FormNivel.cs",
               "RelativeToolTip": "FormNivel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T22:51:45.461Z",
               "EditorCaption": ""
@@ -82,8 +82,7 @@
               "RelativeToolTip": "README.md",
               "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-10-27T22:50:48.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T22:50:48.587Z"
             },
             {
               "$type": "Document",
@@ -95,18 +94,17 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.305\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
               "ViewState": "AgIAABQAAAAAAAAAAAAEwB8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-10-27T22:45:00.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T22:45:00.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "FormJogo.cs",
               "DocumentMoniker": "C:\\Users\\arthu\\OneDrive\\Documentos\\MemoryGame\\MemoryGame\\FormJogo.cs",
               "RelativeDocumentMoniker": "FormJogo.cs",
               "ToolTip": "C:\\Users\\arthu\\OneDrive\\Documentos\\MemoryGame\\MemoryGame\\FormJogo.cs",
               "RelativeToolTip": "FormJogo.cs",
-              "ViewState": "AgIAALIAAAAAAAAAAAASwLwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAlwBgAAABOAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T22:42:30.653Z",
               "EditorCaption": ""

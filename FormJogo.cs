@@ -22,7 +22,7 @@ namespace MemoryGame
         private FormNivel _formNivelPai;
         private readonly List<string> _icones = new List<string>
         {
-            "!", "N", "k", "b", "v", "w", "z", "r", "p", "o", "m", "a", "c", "d", "e", "f", "g", "h", "i", "j", "l", "q", "s", "t", "u", "x", "y", "A", "B", "C", "D", "E"
+            "girassol", "kiwi", "alho", "flor", "mirtilo", "uva", "banana", "milho", "toranja", "mato", "flor-roxa", "pepino", "espinafre", "pessego", "pomarola", "batata", "azeitona", "quiabo", "berinjela", "cenoura", "rabanete", "pimentao", "durian", "melancia", "pera", "coco", "maca", "manga", "folha", "arvore", "pimenta", "trevo"
         };
         
         // --- Variáveis de Estado do Jogo ---
@@ -104,9 +104,6 @@ namespace MemoryGame
                 BackColor = Color.CornflowerBlue // Cor do tabuleiro
             };
             
-            // ------------------------------------------------------------------
-            // CORREÇÃO: Define as dimensões das linhas e colunas (100% / número de linhas/colunas)
-            // ------------------------------------------------------------------
             tlpTabuleiro.RowStyles.Clear();
             for (int i = 0; i < _linhas; i++)
             {
@@ -134,12 +131,13 @@ namespace MemoryGame
                     {
                         // O Text (ícone) é armazenado no Tag para não ser revelado inicialmente
                         Tag = iconesDoJogo[indiceIcone], 
-                        Text = "?", // Ícone de carta virada
+                        Text = " ", // Ícone de carta virada
                         Dock = DockStyle.Fill,
                         Font = new Font("Webdings", 48, FontStyle.Bold), // Fonte para ícones
                         BackColor = Color.LightYellow, // Cor da carta virada
                         ForeColor = Color.Black,
-                        FlatStyle = FlatStyle.Flat
+                        FlatStyle = FlatStyle.Flat,
+                        BackgroundImageLayout = ImageLayout.Stretch
                     };
                     carta.FlatAppearance.BorderSize = 5;
                     carta.Click += Carta_Click;
@@ -192,12 +190,16 @@ namespace MemoryGame
             Button cartaClicada = (Button)sender;
 
             // Se a carta já estiver virada ou já tiver sido encontrada, ignora o clique.
-            if (cartaClicada.Text != "?" || cartaClicada.Enabled == false)
+            if (cartaClicada.BackgroundImage != null || cartaClicada.Enabled == false)
                 return;
 
+            string iconeCarta = cartaClicada.Tag.ToString();
+
             // Vira a carta, revelando o ícone que está no Tag.
-            cartaClicada.Text = cartaClicada.Tag.ToString();
+           // cartaClicada.Text = cartaClicada.Tag.ToString();
             cartaClicada.BackColor = Color.White; // Cor da carta virada
+            cartaClicada.BackgroundImage = MemoryGame.Properties.Resources.ResourceManager.GetObject(iconeCarta) as Image;
+            cartaClicada.BackgroundImage = MemoryGame.Properties.Resources.ResourceManager.GetObject(iconeCarta) as Image;
 
             // --- Lógica de Seleção de Cartas ---
 
@@ -249,8 +251,8 @@ namespace MemoryGame
             _timer.Stop();
 
             // Vira as cartas de volta
-            _primeiroClique.Text = "?";
-            _segundoClique.Text = "?";
+            _primeiroClique.BackgroundImage = null;
+            _segundoClique.BackgroundImage = null;
             _primeiroClique.BackColor = Color.LightYellow;
             _segundoClique.BackColor = Color.LightYellow;
 
