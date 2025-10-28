@@ -30,6 +30,9 @@ namespace MemoryGame
         private Button _segundoClique = null;
         private readonly System.Windows.Forms.Timer _timer = new System.Windows.Forms.Timer();
 
+        private readonly System.Diagnostics.Stopwatch _cronometro = new System.Diagnostics.Stopwatch();
+        private readonly System.Windows.Forms.Timer _timerContador = new System.Windows.Forms.Timer(); // Timer para atualizar o display
+        private Label _lblTempo;
         /// <summary>
         /// Construtor do formulário do jogo.
         /// </summary>
@@ -50,8 +53,36 @@ namespace MemoryGame
             // Configura o timer para virar as cartas de volta
             _timer.Interval = 750; // 0.75 segundos
             _timer.Tick += Timer_Tick;
+
+            _lblTempo = new Label
+            {
+                Text = "Tempo: 00:00",
+                Font = new Font("Arial", 24, FontStyle.Bold),
+                ForeColor = Color.DarkRed,
+                AutoSize = true,
+                // Posicione o Label em um local visível no formulário
+                Location = new Point(10, 10)
+            };
+            this.Controls.Add(_lblTempo);
+
+            _timerContador.Interval = 1000; // Atualiza a cada 1 segundo
+            _timerContador.Tick += TimerContador_Tick;
+            _timerContador.Start(); // Inicia o timer de atualização
+            _cronometro.Start(); // Inicia a contagem do tempo de jogo
         }
 
+
+        private void TimerContador_Tick(object sender, EventArgs e)
+        {
+            // Obtém o tempo decorrido do cronômetro
+            TimeSpan ts = _cronometro.Elapsed;
+
+            // Formata o tempo como MM:SS (Minutos:Segundos)
+            string tempoFormatado = String.Format("{0:00}:{1:00}", ts.TotalMinutes, ts.Seconds);
+
+            // Atualiza o rótulo
+            _lblTempo.Text = "Tempo: " + tempoFormatado;
+        }
         /// <summary>
         /// Método para inicializar os componentes do formulário (simulação do Designer.cs).
         /// </summary>
@@ -307,8 +338,15 @@ namespace MemoryGame
         {
             if (_paresEncontrados == _paresTotal)
             {
+                _cronometro.Stop();
+                _timerContador.Stop();
+
+                TimeSpan tsFinal = _cronometro.Elapsed;
+                string tempoFinalFormatado = String.Format("{0} minutos e {1} segundos",
+                                                            tsFinal.Minutes,
+                                                            tsFinal.Seconds);
                 // Jogo concluído!
-                string mensagem = "Parabéns! Você encontrou todos os pares!";
+                string mensagem = $"Parabéns! Você encontrou todos os pares em {tempoFinalFormatado}!";
                 string titulo = "Fim de Jogo";
                 
                 // Opções: Sim = Nova Partida, Não = Encerrar
