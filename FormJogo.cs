@@ -48,7 +48,13 @@ namespace MemoryGame
             this.BackColor = Color.LightBlue; // Fundo amigável
 
             ConfigurarNivel();
-            CriarTabuleiro();
+            FlowLayoutPanel flpHeader = new()
+            {
+                Dock = DockStyle.Top,
+                AutoSize = true, // Ajusta a altura automaticamente
+                BackColor = Color.LightGray, // Cor de fundo para o cabeçalho
+            };
+            this.Controls.Add(flpHeader);
             
             // Configura o timer para virar as cartas de volta
             _timer.Interval = 750; // 0.75 segundos
@@ -69,6 +75,53 @@ namespace MemoryGame
             _timerContador.Tick += TimerContador_Tick;
             _timerContador.Start(); // Inicia o timer de atualização
             _cronometro.Start(); // Inicia a contagem do tempo de jogo
+
+            Button btnDesistir = new Button
+            {
+                Text = "Desistir",
+                Font = new Font("Arial", 16, FontStyle.Bold),
+                BackColor = Color.Red,
+                ForeColor = Color.White,
+                Size = new Size(120, 40),
+                // Posicionamento no canto superior direito (ajuste conforme o tamanho do seu formulário)
+                Location = new Point(this.ClientSize.Width - 130, 10),
+                FlatStyle = FlatStyle.Flat
+            };
+            btnDesistir.Click += BtnDesistir_Click;
+            this.Controls.Add(btnDesistir);
+
+            CriarTabuleiro();
+
+        }
+
+
+
+        private void BtnDesistir_Click(object sender, EventArgs e)
+        {
+            // Para a contagem de tempo temporariamente
+            _cronometro.Stop();
+            _timerContador.Stop();
+
+            string mensagem = "Tem certeza que deseja desistir da partida atual e voltar para a seleção de nível?";
+            string titulo = "Desistir do Jogo";
+
+            // Pergunta de confirmação
+            DialogResult resultado = MessageBox.Show(mensagem, titulo, MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+            if (resultado == DialogResult.Yes)
+            {
+                // Volta para o FormNivel (que é o formulário pai)
+                _formNivelPai.Show();
+
+                // Fecha o FormJogo
+                this.Close();
+            }
+            else
+            {
+                // Se o jogador não desistiu, retoma a contagem de tempo
+                _cronometro.Start();
+                _timerContador.Start();
+            }
         }
 
 
@@ -160,7 +213,6 @@ namespace MemoryGame
                     
                     Button carta = new Button
                     {
-                        // O Text (ícone) é armazenado no Tag para não ser revelado inicialmente
                         Tag = iconesDoJogo[indiceIcone], 
                         Text = " ", // Ícone de carta virada
                         Dock = DockStyle.Fill,
